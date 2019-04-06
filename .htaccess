@@ -1,0 +1,7 @@
+ServerSignature Off
+AddDefaultCharset utf-8
+ErrorDocument 404 /error.php
+
+RewriteEngine On
+#RewriteRule ^ajax?$ /ajax.php [NC,L]
+RewriteRule ^(reg)$ /reg.php [QSA,L]
